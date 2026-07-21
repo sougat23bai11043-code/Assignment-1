@@ -1,13 +1,13 @@
 # Assignment-1
-## 🏥 Medical Insurance Cost Prediction using Multiple Linear Regression
+## Medical Insurance Cost Prediction using Multiple Linear Regression
 
-## 📌 Project Overview
+##  Project Overview
 
 This project develops a **Multiple Linear Regression** model to predict **medical insurance charges** based on customer demographic and health-related information. The model helps estimate insurance costs using machine learning techniques.
 
 ---
 
-## 🎯 Objective
+## Objective
 
 The objective of this project is to:
 
@@ -18,7 +18,7 @@ The objective of this project is to:
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 **Dataset:** Medical Cost Personal Insurance Dataset
 
@@ -39,7 +39,7 @@ https://www.kaggle.com/datasets/mirichoi0218/insurance
 
 ---
 
-## 📊 Features Used
+## Features Used
 
 | Feature | Description |
 |----------|-------------|
@@ -56,7 +56,7 @@ https://www.kaggle.com/datasets/mirichoi0218/insurance
 
 ---
 
-## ⚙️ Project Workflow
+##  Project Workflow
 
 ### 1. Data Understanding
 - Loaded the dataset using Pandas.
@@ -85,7 +85,7 @@ An **Actual vs Predicted** scatter plot was generated to visualize model perform
 
 ---
 
-## 📈 Results
+##  Results
 
 The model successfully predicts medical insurance charges with reasonable accuracy.
 
@@ -99,7 +99,7 @@ The scatter plot demonstrates a positive relationship between actual and predict
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 This project demonstrates the application of Multiple Linear Regression for predicting medical insurance charges. The analysis indicates that **smoking status**, **age**, and **BMI** are among the most influential factors affecting insurance costs.
 
@@ -107,18 +107,19 @@ Although Linear Regression provides a simple and interpretable model, it assumes
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 Assignment-1/
 │
 ├── Assignment-1.ipynb
-├── README.md
+├── insurance.csv
+└── README.md
 ```
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Name:** Sougat Das
 
