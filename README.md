@@ -1,35 +1,129 @@
 # Assignment-1
-# Medical Insurance Cost Prediction using Multiple Linear Regression
+## 🏥 Medical Insurance Cost Prediction using Multiple Linear Regression
 
-## Objective
-To build a Multiple Linear Regression model that predicts medical insurance charges using customer and health-related information.
+## 📌 Project Overview
 
-## Dataset
-Medical Cost Personal Insurance Dataset
+This project develops a **Multiple Linear Regression** model to predict **medical insurance charges** based on customer demographic and health-related information. The model helps estimate insurance costs using machine learning techniques.
 
-Kaggle Dataset:
+---
+
+## 🎯 Objective
+
+The objective of this project is to:
+
+- Predict medical insurance charges using Multiple Linear Regression.
+- Perform data preprocessing and feature encoding.
+- Evaluate the model using standard regression metrics.
+- Visualize the relationship between actual and predicted insurance charges.
+
+---
+
+## 📂 Dataset
+
+**Dataset:** Medical Cost Personal Insurance Dataset
+
+**Source:** Kaggle
+
 https://www.kaggle.com/datasets/mirichoi0218/insurance
 
-## Libraries Used
+---
+
+## 🛠️ Technologies Used
+
+- Python 3
+- Google Colab
 - Pandas
 - NumPy
 - Matplotlib
 - Scikit-learn
 
-## Methodology
-1. Load the dataset.
-2. Display the first five records.
-3. Identify numerical and categorical features.
-4. Check for missing values.
-5. Encode categorical variables.
-6. Split the data into training and testing sets (80:20).
-7. Train a Multiple Linear Regression model.
-8. Predict insurance charges.
-9. Evaluate the model using MAE, MSE, and R² Score.
-10. Plot Actual vs Predicted values.
+---
 
-## Results
-The model predicts insurance charges with reasonable accuracy. Performance is evaluated using MAE, MSE, and R² Score.
+## 📊 Features Used
 
-## Conclusion
-Smoking status has the greatest impact on insurance charges. Age and BMI also influence insurance costs. Linear Regression provides a simple baseline model but may not capture complex non-linear relationships.
+| Feature | Description |
+|----------|-------------|
+| Age | Age of the customer |
+| Sex | Gender |
+| BMI | Body Mass Index |
+| Children | Number of dependent children |
+| Smoker | Smoking status |
+| Region | Residential region |
+
+**Target Variable**
+
+- Charges (Medical Insurance Cost)
+
+---
+
+## ⚙️ Project Workflow
+
+### 1. Data Understanding
+- Loaded the dataset using Pandas.
+- Displayed the first five records.
+- Identified numerical and categorical features.
+- Selected the target variable.
+
+### 2. Data Preprocessing
+- Checked for missing values.
+- Encoded categorical variables using LabelEncoder.
+- Split the dataset into 80% training and 20% testing data.
+
+### 3. Model Development
+- Built a Multiple Linear Regression model.
+- Trained the model using the training dataset.
+- Predicted insurance charges for the testing dataset.
+
+### 4. Model Evaluation
+The model was evaluated using:
+
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- R² Score
+
+An **Actual vs Predicted** scatter plot was generated to visualize model performance.
+
+---
+
+## 📈 Results
+
+The model successfully predicts medical insurance charges with reasonable accuracy.
+
+Evaluation Metrics:
+
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- R² Score
+
+The scatter plot demonstrates a positive relationship between actual and predicted values.
+
+---
+
+## ✅ Conclusion
+
+This project demonstrates the application of Multiple Linear Regression for predicting medical insurance charges. The analysis indicates that **smoking status**, **age**, and **BMI** are among the most influential factors affecting insurance costs.
+
+Although Linear Regression provides a simple and interpretable model, it assumes a linear relationship between features and the target variable. More advanced machine learning algorithms such as Random Forest or XGBoost may improve prediction accuracy.
+
+---
+
+## 📁 Repository Structure
+
+```
+Assignment-1/
+│
+├── Assignment-1.ipynb
+├── README.md
+```
+
+---
+
+## 👨‍💻 Author
+
+**Name:** Sougat Das
+
+**Course:** AI & Machine Learning
+
+**Assignment:** Assignment–1
+
+**Topic:** Medical Insurance Cost Prediction using Multiple Linear Regression
