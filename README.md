@@ -28,7 +28,7 @@ https://www.kaggle.com/datasets/mirichoi0218/insurance
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️Technologies Used
 
 - Python 3
 - Google Colab
